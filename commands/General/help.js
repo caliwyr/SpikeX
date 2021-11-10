@@ -74,7 +74,7 @@ module.exports = {
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
       .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     let embed8 = new Discord.MessageEmbed()
-      .setTitle('** <:bluehearts:907958533675438111> Help Panel <:redheart:907965588360540161>**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
       .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:908022746301210675> UPTIME",
