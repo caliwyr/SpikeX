@@ -19,15 +19,15 @@ module.exports = {
       )
       .setColor("blurple")
       .addField(
-        "<:link:807875763415416853> **Invite Me To Your server**",
+        "<:link:907968025964187679> **Invite Me To Your server**",
         "[Click here](" + invite_link + ") to invite me to into server or press button below 👇."
       )
       .setTimestamp()
-      .setFooter("BOT DEVELOPERS: Akg#9426| Prefix: *")
+      .setFooter("BOT DEVELOPERS: Ashura#0464| Prefix: p!")
     let button1 = new disbut.MessageButton()
       .setStyle('url')
       .setLabel(' • Invite Me')
-      .setEmoji("873996108211310592")
+      .setEmoji("907958533675438111")
       .setURL("https://discord.com/api/oauth2/authorize?client_id=876690046487498752&permissions=8&scope=bot");
 
     return message.channel.send(embed, button1);

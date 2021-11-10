@@ -15,7 +15,7 @@ module.exports = {
     const embed = new Discord.MessageEmbed()
     .setTitle(`🐈 Meow !!! 🐈`)
     .setImage(img)
-    .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *")
+    .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!")
     .setColor("cccfff");
     message.channel.send(embed);
   }

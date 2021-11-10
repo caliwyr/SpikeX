@@ -15,7 +15,7 @@ module.exports = {
         .setTitle("Error :cry:")
         .setDescription("Please enter a location!")
         .setColor("cccfff")
-        .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+        .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
       return message.channel.send(errorembed);
     }
 
@@ -26,7 +26,7 @@ module.exports = {
           .setTitle("Error :cry:")
           .setDescription("Please enter a vaild location!")
           .setColor("cccfff")
-          .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+          .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
         return message.channel.send(errorembed);
       }
 
@@ -37,7 +37,7 @@ module.exports = {
           .setTitle("Error :cry:")
           .setDescription("Please enter a vaild location!")
           .setColor("cccfff")
-          .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+          .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
         return message.channel.send(errorembed);
       }
 
@@ -53,7 +53,7 @@ module.exports = {
         .addField('Feels Like', `${current.feelslike} Degrees`, true)
         .addField('Winds', current.winddisplay, true)
         .addField('Humidity', `${current.humidity}%`, true)
-        .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+        .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
       message.channel.send(embed);
     });
   }

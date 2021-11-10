@@ -15,7 +15,7 @@ module.exports = {
             let gayrateEmbed = new Discord.MessageEmbed()
                 .setTitle("Dumbrate Machine")
                 .setColor("RANDOM")
-                .setDescription("You are `" + gayrate + "%` dumb! <:Dumb:754519337032876102>")
+                .setDescription("You are `" + gayrate + "%` dumb! <:Dumb:907964839819902976>")
                 .setFooter(message.client.user.username, message.client.user.avatarURL())
             message.channel.send(gayrateEmbed).catch(e => {
                 console.log(e)
@@ -24,7 +24,7 @@ module.exports = {
             let argsEmbed = new Discord.MessageEmbed()
                 .setTitle("Dumbrate Machine")
                 .setColor("RANDOM")
-                .setDescription(`${User.username} is \`${gayrate}%\` dumb! <:Dumb:754519337032876102>`)
+                .setDescription(`${User.username} is \`${gayrate}%\` dumb! <:Dumb:907964839819902976>`)
                 .setFooter(message.client.user.username, message.client.user.avatarURL())
             message.channel.send(argsEmbed).catch(e => {
                 console.log(e)

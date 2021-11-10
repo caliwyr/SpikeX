@@ -10,78 +10,78 @@ module.exports = {
 
   run: async (client, message, args) => {
     let embed1 = new Discord.MessageEmbed()
-      .setTitle('** <:redheart:876628633144414258> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> COMMAND CATEGORIES",
-        "**<:redheart:876628633144414258> ADMIN\n<:redheart:876628633144414258> GENERAL\n<:redheart:876628633144414258> GIVEAWAY\n<:redheart:876628633144414258> INFO\n<:redheart:876628633144414258> IMAGE\n<:redheart:876628633144414258> MODERATION\n<:redheart:876628633144414258> OWNER\n<:redheart:876628633144414258> FUN\n<:redheart:876628633144414258> UPTIMER**")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+        "**<:redheart:907965588360540161> ADMIN\n<:redheart:907965588360540161> GENERAL\n<:redheart:907965588360540161> GIVEAWAY\n<:redheart:907965588360540161> INFO\n<:redheart:907965588360540161> IMAGE\n<:redheart:907965588360540161> MODERATION\n<:redheart:907965588360540161> OWNER\n<:redheart:907965588360540161> FUN\n<:redheart:907965588360540161> UPTIMER**")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
 
     let embed2 = new Discord.MessageEmbed()
-      .setTitle('** <:redheart:876628633144414258> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> MODERATION",
         "`ban` `unban` `kick` `addemoji` `addrole` `removerole` `announce` `setnick` `resetnick` `ticket` `lockchannel` `purge` `slowmode` `mute` `unmute` `nuke` `resetwarns` `warn` `warnings`")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     let embed3 = new Discord.MessageEmbed()
-      .setTitle('** <:redheart:876628633144414258> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> GENERAL",
         "`servericon` `calculator` `invite` `membercount` `help` `serverinfo` `leaderboard`")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     let embed4 = new Discord.MessageEmbed()
-      .setTitle('** <:redheart:876628633144414258> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> GIVEAWAY",
         "`gstart` `gend` `greroll`")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     let embed5 = new Discord.MessageEmbed()
-      .setTitle('** <:redheart:876628633144414258> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> INFO",
         "`avatar` `bug-report` `feedback` `developer` `help` `howtouse` `info` `serverinfo` `position` `urban` `weather` `status` `channelinfo` `rolememberinfo`")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     let embed6 = new Discord.MessageEmbed()
-      .setTitle('** <:redheart:876628633144414258> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> IMAGE",
         "`tweet` `deepfry` `eject` `meme` `kangaroo` `dog` `cat` `changemymind` `fire` `respect` `scary`")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     let embed7 = new Discord.MessageEmbed()
-      .setTitle('** <:redheart:876628633144414258> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> FUN",
         "`rps` `coinflip` `meme` `reverse` `hangman` `tictactoe` `trivia` `fact` `Shuffle-guess`")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     let embed8 = new Discord.MessageEmbed()
-      .setTitle('** <:blueheart:878156514018332703> Help Panel <:redheart:876628633144414258>**')
-      .setDescription('<:redbullet:876629791648907274> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .setTitle('** <:bluehearts:907958533675438111> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
       .addField(
         "<a:uptimer:876630668044533820> UPTIME",
         "`add` `calc` `ping` `projects` `remove` `stats` `total`")
-      .setThumbnail("https://cdn.discordapp.com/avatars/876690046487498752/50c204817cd9fc42b1581dcf43042259.webp")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
-      .setFooter('Bot Made By akg#9426 | Prefix: *')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     
 
 
@@ -92,11 +92,11 @@ module.exports = {
     // let pages = ['page1', 'page2', 'page3']
 
     simplydjs.embedPages(client, message, pages, {
-      firstEmoji: '876616705164595280', // default: ⏪
-      backEmoji: '876605402291265576', // default: ◀️
-      delEmoji: '876627238903246889', // default: 🗑️
-      forwardEmoji: '876616590563614781', // default: ▶️
-      lastEmoji: '876616351572168765', // default: ⏩
+      firstEmoji: '907966957742075954', // default: ⏪
+      backEmoji: '907967205013082123', // default: ◀️
+      delEmoji: '907967402254422056', // default: 🗑️
+      forwardEmoji: '907967649533808691', // default: ▶️
+      lastEmoji: '907967790873444362', // default: ⏩
 
       btncolor: 'grey', // default: green 
       delcolor: 'red', // default: red

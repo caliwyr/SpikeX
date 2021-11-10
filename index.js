@@ -20,6 +20,17 @@ const Nuggies = require('nuggies');
 Nuggies.connect(process.env.MONGO_URI);
 const client = new Client({
   disableEveryone: true,
+  intents: [
+    Discord.Intents.FLAGS.GUILDS,
+    Discord.Intents.FLAGS.GUILD_MESSAGES,
+    Discord.Intents.FLAGS.GUILD_MEMBERS,
+    Discord.Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
+    Discord.Intents.FLAGS.GUILD_WEBHOOKS,
+    Discord.Intents.FLAGS.GUILD_VOICE_STATES,
+    Discord.Intents.FLAGS.GUILD_INVITES,
+    Discord.Intents.FLAGS.GUILD_BANS,
+    Discord.Intents.FLAGS.GUILD_PRESENCES,
+    ]
 });
 disbut(client);
 client.distube = new DisTube(client, { searchSongs: true, emitNewSongOnly: true, leaveOnFinish: true })
@@ -77,21 +88,21 @@ let row1 = new disbut.MessageActionRow()
   .addComponent(thirdbutton)
 const step1 = new MessageEmbed()
   .setColor("cccfff")
-  .setTitle("<a:YellowArrow:870193892492980236> How to Use Uptimer!")
+  .setTitle("<a:YellowArrow:907968715738480660> How to Use Uptimer!")
   .addField(
     "<:857122481088495629:873454677231034368> Get the link", "Our first step is to get the webpage link. You can find the code in the bottom or side of you repl.it(see screenshot below)! If you do not have this link, copy paste this code at the top of your `index.js` and run it again.\n ```https://pastebin.com/HJGhAUZf```"
   )
   .setImage("https://media.discordapp.net/attachments/870077234780725281/873324807444365413/Screen_Shot_2021-08-06_at_2.57.52_PM.png?width=1017&height=534")
 const step3 = new MessageEmbed()
   .setColor("cccfff")
-  .setTitle("<a:YellowArrow:870193892492980236> How to Use Uptimer!")
+  .setTitle("<a:YellowArrow:907968715738480660> How to Use Uptimer!")
   .addField(
     "<:5286_three_emj_png:873453086981636127> Other Commands", "Now that we have added your project, you can use other command such as `projects` `remove` `stats` and `total`. Below Is an image of the remove command!  "
   )
   .setImage("https://cdn.discordapp.com/attachments/875796343338172447/875976584715182100/Screen_Shot_2021-08-13_at_10.37.50_PM.png")
 const step2 = new MessageEmbed()
   .setColor("cccfff")
-  .setTitle("<a:YellowArrow:870193892492980236> How to Use Uptimer!")
+  .setTitle("<a:YellowArrow:907968715738480660> How to Use Uptimer!")
   .addField(
     "<:4751_two_emj_png:873364919259627551> Run the command", "Our next step is to runn the command. The syntax of this command is `*add <repl_url>`. If done correcty the bot should give embed saying: ```:white_check_mark: Added Succesfully!``` See Screenshot Below For More details."
   )

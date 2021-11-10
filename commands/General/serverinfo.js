@@ -40,7 +40,7 @@ module.exports = {
         value : `> ${createdAt}` ,
 
       },)
-      .setFooter("BOT DEVELOPERS: Akg#9426| Prefix: *")
+      .setFooter("BOT DEVELOPERS: Ashura#0464| Prefix: p!")
       
         
 

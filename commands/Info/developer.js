@@ -15,14 +15,14 @@ module.exports = {
   ownerOnly: false,
   run: async (client, message, args) => {
     let helpEmbed = new MessageEmbed()
-      .setTitle("<a:a_emoji:874194898218274836> <a:K_emoji:874194945341268019> <a:g_emoji:874195066816696381>")
+      .setTitle("<a:A_emoji:907974898272567306> <a:S_emoji:907974919126646794> <a:H_emoji:907974938336583710> <a:U_emoji:907974958947401728> <a:R_emoji:907974975749771274> <a:A_emoji:907974898272567306>")
       
       .addField(
         "About Me:",
         "Hi I am akg! I am a bot developer who codes in node.js! I have been coding since June of 2021. Some of my hobbies are playing basketball, playing video games and coding! ",
       )
-      .setThumbnail("https://cdn.discordapp.com/avatars/813890066781962271/1224647ef75999e8308f476e5b1658f5.png?size=1024")
-      .setFooter("Make sure to show your support by subbing to my youtube(linked below)! If you have any questions about the bot, join support server linked below or send me a DM at akg#9426! ")
+      .setThumbnail("https://cdn.discordapp.com/avatars/855595858954027049/a_8fa475df0c9bce7f89744cf37ba9d396.gif?size=1024")
+      .setFooter("Make sure to show your support by subbing to my youtube(linked below)! If you have any questions about the bot, join support server linked below or send me a DM at Ashura#0464! ")
 
       let button1 = new disbut.MessageButton()
       .setStyle('url')

@@ -19,7 +19,7 @@ module.exports = {
       .addField("**Channel Description**", `${channel.topic || "No Description"}`)
       .addField("**Channel Created At**", channel.createdAt)
       .setColor("GREEN")
-      .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+      .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
     message.channel.send(channelembed);
   }
 }

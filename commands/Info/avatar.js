@@ -16,7 +16,7 @@ module.exports = {
       embed.setThumbnail(message.author.displayAvatarURL())
       embed.setDescription("This is your avatar.")
       embed.setColor("RANDOM")
-      embed.setFooter("Bot made by akg#9426")
+      embed.setFooter("Bot made by Ashura#0464")
       return message.channel.send(embed)
     } else {
       const user = message.mentions.users.first()
@@ -24,7 +24,7 @@ module.exports = {
       embed.setThumbnail(user.displayAvatarURL())
       embed.setDescription(`This is ${user.tag}'s avatar.`)
       embed.setColor('RANDOM')
-      embed.setFooter("Bot made by akg#9426")
+      embed.setFooter("Bot made by Ashura#0464")
       return message.channel.send(embed)
     }
   }

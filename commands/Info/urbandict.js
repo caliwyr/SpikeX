@@ -25,7 +25,7 @@ module.exports = {
                     .addField('**Rating:**', `**\`Upvotes: ${thumbsUp} | Downvotes: ${thumbsDown}\`**`)
                     .addField("**Link**",  `[link to ${word}](${urbanURL})`)
                     .addField("**Author:**", `${author || "unknown"}`)
-                    .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+                    .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
 
                 message.channel.send(embed)
             

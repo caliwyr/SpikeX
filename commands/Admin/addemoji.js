@@ -11,18 +11,18 @@ module.exports = {
     // steal command
     if (!args[0]) {
       let embed1 = new MessageEmbed()
-        .setTitle("<a:error:878521122524626945> Please Specify an Emoji To Steal! <a:error:878521122524626945>")
-        .setFooter("BOT DEVELOPERS: Akg#9426| Prefix: *")
+        .setTitle("<a:error:907951993614651483> Please Specify an Emoji To Steal! <a:error:907951993614651483>")
+        .setFooter("BOT DEVELOPERS: Ashura#0464| Prefix: p!")
         message.channel.send(embed1)
     } else {
       let embed2 = new MessageEmbed()
-        .setTitle("<a:success:878523444164165642> Emoji Succesfully Stolen! <a:success:878523444164165642>")
-        .setFooter("BOT DEVELOPERS: Akg#9426| Prefix: *")
+        .setTitle("<a:success:907963383066816563> Emoji Succesfully Stolen! <a:success:907963383066816563>")
+        .setFooter("BOT DEVELOPERS: Ashura#0464| Prefix: p!")
         
       simplydjs.stealEmoji(message, args, {
         embedTitle: 'Emoji Added ;)', // default: `Emoji Added ;)`
         embedColor: 'FF0000', //default: #075FFF;
-        embedFoot: "BOT DEVELOPERS: Akg#9426| Prefix: *", // default: 'Stop stealing.. its illegal.'
+        embedFoot: "BOT DEVELOPERS: Ashura#0464| Prefix: p!", // default: 'Stop stealing.. its illegal.'
         failedMsg: 'sorry emoji not found' //default: "Couldn't find an emoji from it"
       
       })

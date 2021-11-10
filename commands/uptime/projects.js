@@ -19,7 +19,7 @@ module.exports = {
 
     const all = await UrlsConfig.find(filter); // GETS ALL DATA FROM DATABASE
 
-    var menuEmoji = "<a:musica:785432181065121802>";
+    var menuEmoji = "<a:musica:907956062760632351>";
 
     // PRE-DEFINED EMBED
     var embed = new discord.MessageEmbed()

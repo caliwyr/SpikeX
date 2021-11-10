@@ -29,7 +29,7 @@ module.exports = {
     simplydjs.ticketSystem(message, message.channel, {
       embedDesc: 'Click The Button Below To Create A Ticket!', // default: '🎫 Create a ticket by clicking the button 🎫'
       embedColor: 'cccfff', // default: #075FFFF
-      embedFoot: 'Bot Developer : akg#9426 | Prefix: p!', // default: message.guild.name
+      embedFoot: 'Bot Developer : Ashura#0464 | Prefix: p!', // default: message.guild.name
       emoji: '🎫', // default:, 🎫
       color: 'blurple', // default: blurple
     })

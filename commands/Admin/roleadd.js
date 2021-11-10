@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js");
-const ownerID = "813890066781962271"
+const ownerID = "855595858954027049"
 module.exports = {
   name: "roleadd",
   category: 'mod',
@@ -29,9 +29,9 @@ module.exports = {
 
       await rMember.roles.add(role.id).catch(e => console.log(e.message))
       let embed1 = new MessageEmbed()
-      .setTitle("<a:success:879246323570843728> Success <a:success:879246323570843728>")
+      .setTitle("<a:success:907963383066816563> Success <a:success:907963383066816563>")
       .setDescription(`<@${rMember.id}> has been added to **${role.name}**`)
-      .setFooter("Bot Developer: akg#9426 | Prefix: p!")
+      .setFooter("Bot Developer: Ashura#0464 | Prefix: p!")
       message.channel.send(embed1)
 
     }

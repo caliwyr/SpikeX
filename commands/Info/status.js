@@ -17,7 +17,7 @@ module.exports = {
                 .setThumbnail(user.user.displayAvatarURL())
                 .addField("**No Status**", 'This user does not have any custom status!')
                 .setFooter(message.guild.name, message.guild.iconURL())
-                .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+                .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
             message.channel.send(sembed)
             return undefined;
         }
@@ -31,7 +31,7 @@ module.exports = {
                     .addField("**Status**", `**Custom status** -\n${activity.emoji || "No Emoji"} | ${activity.state}`)
                     .setThumbnail(user.user.displayAvatarURL())
                     .setFooter(message.guild.name, message.guild.iconURL())
-                    .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+                    .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
                 message.channel.send(embed)
             }
             else if (activity.type === 'PLAYING') {
@@ -48,7 +48,7 @@ module.exports = {
                     .addField("**App**", `${name1}`)
                     .addField("**Details**", `${details1 || "No Details"}`)
                     .addField("**Working on**", `${state1 || "No Details"}`)
-                    .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+                    .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
                 message.channel.send(sembed);
             }
             else if (activity.type === 'LISTENING' && activity.name === 'Spotify' && activity.assets !== null) {
@@ -70,7 +70,7 @@ module.exports = {
                     .addField('Album', trackAlbum, true)
                     .addField('Author', trackAuthor, false)
                     .addField('Listen to Track', `${trackURL}`, false)
-                    .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+                    .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
                 message.channel.send(embed);
             }
         })

@@ -8,15 +8,15 @@ module.exports = {
   run: async (bot, message, args) => {
     if (!args[0]) {
       let embed = new MessageEmbed()
-        .setFooter("Bot Developer: akg#9426 | Prefix: p!")
-        .setTitle("<a:error:878521122524626945> Error <a:error:878521122524626945>")
+        .setFooter("Bot Developer: Ashura#0464 | Prefix: p!")
+        .setTitle("<a:error:907951993614651483> Error <a:error:907951993614651483>")
         .setDescription("Please ping a person You want to Fight!")
         .setColor("FF0000")
       message.channel.send(embed)
     } else {
       let embed1 = new MessageEmbed()
-        .setFooter("Bot Developer: akg#9426 | Prefix: p!")
-        .setTitle("<a:success:878523444164165642> Success <a:success:878523444164165642>")
+        .setFooter("Bot Developer: Ashura#0464 | Prefix: p!")
+        .setTitle("<a:success:907963383066816563> Success <a:success:907963383066816563>")
         .setDescription(`This fight with ${args[0]} has begun!`)
         .setColor("00FF00")
       let kick = new disbut.MessageButton()

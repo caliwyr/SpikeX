@@ -1,4 +1,4 @@
-const { ownerID } = "813890066781962271"
+const { ownerID } = "855595858954027049"
 
 module.exports = {
   name: "dm",

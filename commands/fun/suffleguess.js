@@ -17,7 +17,7 @@ module.exports = {
       .setDescription("Now Try To Guess It!")
       .addField("Shuffle Word", `Type this shuffled word \`${res.result}\`\nOptions: \`cancel\`,\`reshuffle\``)
       .setColor("RANDOM")
-      .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+      .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
     await message.channel.send(firstbd)
     const gameFilter = m => m.author.id
     const gameCollector = message.channel.createMessageCollector(gameFilter);
@@ -27,7 +27,7 @@ module.exports = {
         .setTitle("Nice!")
         .setDescription(`You made it Yay 🎉🎉. It was \`${word}\``)
         .setColor("#C3447A")
-        .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+        .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
       if (msg.author.bot) return
       const selection = msg.content.toLowerCase();
       if (selection === word) {
@@ -37,7 +37,7 @@ module.exports = {
         const cancelbd = new MessageEmbed()
           .setTitle("Game Stopped!")
           .setColor("RED")
-          .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *")
+          .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!")
         message.channel.send(cancelbd)
         gameCollector.stop();
       } else if (selection === 'reshuffle') {
@@ -46,7 +46,7 @@ module.exports = {
           .setDescription("Here's the word..Try another time to guess it!!")
           .addField("Shuffled Word", `Type it correctly - \`${res.result}\`\nOptions: \`cancel\`,\`reshuffle\``)
           .setColor("RANDOM")
-          .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+          .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
         const ress = await (await (fetch(`https://api.monkedev.com/fun/shuffle?content=${word}&key=EjLY54Vys5kJVWgcfaA1RjFIp`))).json();
         message.channel.send(reshbd)
       } else if (selection !== word) {

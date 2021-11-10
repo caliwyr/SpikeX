@@ -13,7 +13,7 @@ module.exports = {
     .setTitle(`Member Count for ${name}:`)
     .setDescription(memberCount)
     .setThumbnail(icon)
-    .setFooter("BOT DEVELOPERS: Akg#9426| Prefix: *")
+    .setFooter("BOT DEVELOPERS: Ashura#0464| Prefix: p!")
     message.channel.send(memberCountEmbed)
   },
 };

@@ -22,7 +22,7 @@ module.exports = {
 
     // LOADING
     let waitEmbed = new MessageEmbed().setDescription(
-      "<a:HYPR_Loading:802069819842625556> Please wait..."
+      "<a:HYPR_Loading:907955075803144202> Please wait..."
     );
     var messageAlert = await message.channel.send(message.author, waitEmbed);
 

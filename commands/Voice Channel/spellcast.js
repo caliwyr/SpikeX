@@ -2,16 +2,16 @@ const { DiscordTogether } = require('discord-together');
 const MessageEmbed = require("discord.js")
 const Discord = require("discord.js")
 module.exports = {
-  name: "betrayal.io",
-  aliases: ["betrayal.io"],
+  name: "spellcast",
+  aliases: ["spellcast"],
   usage: "",
   description: "",
   run: async (client, message, args) => {
     if (message.member.voice.channel) {
-      client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'betrayal').then(async invite => {
+      client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'spellcast').then(async invite => {
         return message.channel.send(`${invite.code}`);
       });
-    } else {
+    }else {
       let embed = new Discord.MessageEmbed()
         .setFooter("Bot Developer: Ashura#0464 | Prefix : p!")
         .setTitle("<a:error:907951993614651483> Error <a:error:907951993614651483>")
@@ -19,6 +19,6 @@ module.exports = {
         .setColor("#FF0000")
       message.channel.send(embed)
     }
-
+  
   }
 }

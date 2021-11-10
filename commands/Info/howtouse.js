@@ -35,9 +35,9 @@ module.exports = {
 
     const step1 = new MessageEmbed()
       .setColor("cccfff")
-      .setTitle("<a:YellowArrow:870193892492980236> How to Use Uptimer!")
+      .setTitle("<a:YellowArrow:907968715738480660> How to Use Uptimer!")
       .addField(
-        "<:857122481088495629:873454677231034368> Get the link", "Our first step is to get the webpage link. You can find the code in the bottom or side of you repl.it(see screenshot below)! If you do not have this link, copy paste this code at the top of your `index.js` and run it again.\n ```https://pastebin.com/HJGhAUZf```"
+        "<:857122481088495629:907976509216661514> Get the link", "Our first step is to get the webpage link. You can find the code in the bottom or side of you repl.it(see screenshot below)! If you do not have this link, copy paste this code at the top of your `index.js` and run it again.\n ```https://pastebin.com/HJGhAUZf```"
       )
       .setImage("https://media.discordapp.net/attachments/870077234780725281/873324807444365413/Screen_Shot_2021-08-06_at_2.57.52_PM.png?width=1017&height=534")
     return message.channel.send({

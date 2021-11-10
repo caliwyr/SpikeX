@@ -4,7 +4,7 @@ const disbut = require("discord-buttons")
 let commenthelp = new disbut.MessageButton()
   .setStyle('blurple')
   .setLabel('Help Menu')
-  .setEmoji("874458757130780723")
+  .setEmoji("904658953491845130")
   .setID("commenthelp");
 module.exports = {
     name: 'fact',

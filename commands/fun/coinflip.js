@@ -8,7 +8,7 @@ module.exports = {
       let hembed = new MessageEmbed()
         .setTitle("Coinflip!")
         .setDescription(`You flipped Heads!`)
-        .setFooter("BOT DEVELOPERS: Akg#9426| Prefix: *")
+        .setFooter("BOT DEVELOPERS: Ashura#0464| Prefix: p!")
         .setThumbnail("https://media.discordapp.net/attachments/873990902648033313/874045545428181022/3865572.png?width=497&height=497")
 
       message.channel.send(hembed)
@@ -16,7 +16,7 @@ module.exports = {
       let tembed = new MessageEmbed()
         .setTitle("Coinflip!")
         .setDescription(`You flipped Tails!`)
-        .setFooter("BOT DEVELOPERS: Akg#9426| Prefix: *")
+        .setFooter("BOT DEVELOPERS: Ashura#0464| Prefix: p!")
         .setThumbnail("https://media.discordapp.net/attachments/873990902648033313/874045763527782450/3865514.png?width=497&height=497")
 
       message.channel.send(tembed)

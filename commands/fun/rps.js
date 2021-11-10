@@ -10,7 +10,7 @@ module.exports = {
             timeoutEmbedColor: "cccfff", // default: #c90000
             drawEmbedColor: "cccfff", // default: #075FFF
             winEmbedColor: "cccfff", // default: #06bd00
-            embedFooter: "Bot Developer: akg#9426 | Prefix: *",
+            embedFooter: "Bot Developer: Ashura#0464 | Prefix: p!",
             rockColor: "green", // default: grey
             paperColor: "green", // default: grey
             scissorsColor: "green", // default: grey

@@ -45,7 +45,7 @@ module.exports = {
 			.addField("Reason:", reason)
 			.addField("Time (s)", regex)
 			.addField("Moderator:", message.author.username)
-      .setFooter("Bot Developer : akg#9426 | Prefix: p!")
+      .setFooter("Bot Developer : Ashura#0464 | Prefix: p!")
 		tbuser.send(tbuembed);
 		const tbembed = new MessageEmbed()
 			.setTitle("Action: Tempban")
@@ -55,7 +55,7 @@ module.exports = {
 			.addField("Reason:", reason)
 			.addField("Time (s)", regex)
 			.addField("Moderator:", message.author.username)
-      .setFooter("Bot Developer : akg#9426 | Prefix: p!")
+      .setFooter("Bot Developer : Ashura#0464 | Prefix: p!")
 		message.channel.send(tbembed);
 		tbuser.send(tbuembed);
 		

@@ -1,0 +1,29 @@
+{
+  "default_prefix": "p!",
+  "owners": [
+    "855595858954027049"
+  ],
+  "ownerID": [
+    "855595858954027049"
+  ],
+  "timeout": 300000,
+  "invite_link": "https://discord.com/api/oauth2/authorize?client_id=872365081281826846&permissions=8&scope=bot",
+  "error_logs": "875597886807769149",
+  "success_logs": "875597958308053024",
+  "disable_fetching": false,
+  "Giveaway_Options": {
+    "giveawayManagerID": "",
+    "giveawayRoleID": "",
+    "giveawayMention": false,
+    "showMention": true,
+    "hostedBy": true
+  },
+  "emoji": {
+    "play": "▶️",
+    "stop": "⏹️",
+    "queue": "📄",
+    "success": "☑️",
+    "repeat": "🔁",
+    "error": "❌"
+  }
+}

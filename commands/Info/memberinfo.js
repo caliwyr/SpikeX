@@ -29,7 +29,7 @@ module.exports = {
       .setThumbnail(message.guild.iconURL())
       .setTitle(`Users With The ${role.name} Role!`)
       .setDescription(membersWithRole.join("\n"))
-      .setFooter("BOT DEVELOPERS: Akg#9426 | Prefix: *");
+      .setFooter("BOT DEVELOPERS: Ashura#0464 | Prefix: p!");
     message.channel.send(roleEmbed);
   }
 }
