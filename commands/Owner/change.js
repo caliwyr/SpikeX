@@ -25,7 +25,7 @@ module.exports = {
         .setStyle('url')
         .setLabel(' • Invite Me')
         .setEmoji("907958533675438111")
-        .setURL("https://discord.com/api/oauth2/authorize?client_id=876690046487498752&permissions=8&scope=bot");
+        .setURL("https://discord.com/api/oauth2/authorize?client_id=907987990624739398&permissions=8&scope=bot");
       let button2 = new disbut.MessageButton()
         .setStyle('url')
         .setEmoji('907959049113436200')
