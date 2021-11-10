@@ -41,7 +41,7 @@ module.exports = {
         "`eval` `reload` `serverlist`"
       )
       .addField(
-        "<a:uptimer:876630668044533820> **UPTIME**",
+        "<a:uptimer:908022746301210675> **UPTIME**",
         "`add` `calc` `ping` `projects` `remove` `stats` `total`"
       )
       .setThumbnail(client.user.displayAvatarURL())

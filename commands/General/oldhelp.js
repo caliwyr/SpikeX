@@ -50,7 +50,7 @@ module.exports = {
         "`rps` `coinflip` `meme` `reverse` `hangman` `tictactoe` `trivia` `fact` `Shuffle-guess` "
       )
       .addField(
-        "<a:uptimer:876630668044533820> **UPTIME**",
+        "<a:uptimer:908022746301210675> **UPTIME**",
         "`add` `calc` `ping` `projects` `remove` `stats` `total`"
       )
       .setThumbnail(client.user.displayAvatarURL())
