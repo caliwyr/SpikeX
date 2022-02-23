@@ -82,11 +82,20 @@ module.exports = {
       .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
       .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
       .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
+      let embed9 = new Discord.MessageEmbed()
+      .setTitle('** <:redheart:907965588360540161> Help Panel <:redheart:907965588360540161>**')
+      .setDescription('<:redbullet:907966023200825414> ** *Pequin*  is one of the only free all in one bots that has many features like tickets, reaction roles, uptimer and buttons while keeping the minimalistic feel and look that every bot user loves.**')
+      .addField(
+        "<a:uptimer:908022746301210675> VOICE CHANNEL",
+        "`awkword` `betrayal` `checkers` `chess` `doodlecrew` `fishing` `lettertile` `poker` `spellcast` `wordsnack` `youtube`")
+      .setThumbnail("https://cdn.discordapp.com/avatars/872021217157193729/73768354b2fa3533939460e5f97970dc.webp?size=1024")
+      .setImage('https://cdn.discordapp.com/attachments/876151387459846145/876689128585039932/standard.gif')
+      .setFooter('Bot Made By Ashura#0464 | Prefix: p!')
     
 
 
 
-    let pages = [embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8] // REQUIRED
+    let pages = [embed1, embed2, embed3, embed4, embed5, embed6, embed7, embed8, embed9] // REQUIRED
 
     // its still possible without embed
     // let pages = ['page1', 'page2', 'page3']

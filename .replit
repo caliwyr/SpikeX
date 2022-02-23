@@ -1,1 +1,2 @@
-run="bash node.sh"
+language = "nodejs"
+run = "npm start"
